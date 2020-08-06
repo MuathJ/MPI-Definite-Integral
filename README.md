@@ -6,8 +6,8 @@ the definite integral of a given function func on the interval [a, b]. The funct
 ------------------------
 1. integrate.cpp
 
-*stored the argument [argv] values to a,b,n using (atof) function
-*defined array of float x of length n with the 1st element a and last element b
+*stored the argument [argv] values to a,b,n using (atof) function*
+*defined array of float x of length n with the 1st element a and last element b*
 
 output:
  For n=100 Trapezoids from a=1 to b=4
@@ -16,7 +16,7 @@ output:
 ------------------------
 2. mpi_integrate_v1.cpp
 
-*in addition to the code from "integrate.cpp", the T function was added with all MPI functions
+*in addition to the code from "integrate.cpp", the T function was added with all MPI functions*
 
 output:
  For n=100 Trapezoids from a=1 to b=4
@@ -25,7 +25,7 @@ output:
 ------------------------
 3. mpi_integrate_v2.cpp
 
-*from the previous code "mpi_integrate_v1.cpp", MPI_Recv function was modified to "MPI_ANY_SOURCE, MPI_ANY_TAG" as per requirements
+*from the previous code "mpi_integrate_v1.cpp", MPI_Recv function was modified to "MPI_ANY_SOURCE, MPI_ANY_TAG" as per requirements*
 
 
 output:
@@ -35,7 +35,7 @@ output:
 ------------------------
 4. mpi_integrate_v3.cpp
 
-*from the previous code "mpi_integrate_v2.cpp", an additional communicator was created "NEW_COMM" in addition to the existing one "MPI_COMM_WORLD"
+*from the previous code "mpi_integrate_v2.cpp", an additional communicator was created "NEW_COMM" in addition to the existing one "MPI_COMM_WORLD"*
 
 output:
  For n=100 Trapezoids from a=1 to b=4

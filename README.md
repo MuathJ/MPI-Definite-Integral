@@ -1,7 +1,7 @@
 # MPI Definite Integral
 
  A program that takes from the line command an integer number n, and two floating-point numbers a and b. Then, the program should compute
-the definite integral of a given function func on the interval [a, b]. The function func should be provided in a separate file named func.cpp
+the definite integral of a given function func on the interval [a, b]. The function func is provided in a separate file named func.cpp
 
 ------------------------
 1. integrate.cpp

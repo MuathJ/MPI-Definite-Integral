@@ -11,6 +11,7 @@ the definite integral of a given function func on the interval [a, b]. The funct
 
 output:
  For n=100 Trapezoids from a=1 to b=4
+ 
  The Definite Integral Value is: 73.50044250488281250000
 
 ------------------------
@@ -20,6 +21,7 @@ output:
 
 output:
  For n=100 Trapezoids from a=1 to b=4
+ 
  The Definite Integral Value is: 73.50044536590576171875
 
 ------------------------
@@ -30,6 +32,7 @@ output:
 
 output:
  For n=100 Trapezoids from a=1 to b=4
+ 
  The Definite Integral Value is: 73.50044536590576171875
 
 ------------------------
@@ -39,6 +42,7 @@ output:
 
 output:
  For n=100 Trapezoids from a=1 to b=4
+ 
  The Definite Integral Value is: 73.50044536590576171875
 
 ------------------------

@@ -9,7 +9,9 @@ the definite integral of a given function func on the interval [a, b]. The funct
 *stored the argument [argv] values to a,b,n using (atof) function*
 *defined array of float x of length n with the 1st element a and last element b*
 
+
 output:
+
  For n=100 Trapezoids from a=1 to b=4
  
  The Definite Integral Value is: 73.50044250488281250000
@@ -19,7 +21,9 @@ output:
 
 *in addition to the code from "integrate.cpp", the T function was added with all MPI functions*
 
+
 output:
+
  For n=100 Trapezoids from a=1 to b=4
  
  The Definite Integral Value is: 73.50044536590576171875
@@ -31,6 +35,7 @@ output:
 
 
 output:
+
  For n=100 Trapezoids from a=1 to b=4
  
  The Definite Integral Value is: 73.50044536590576171875
@@ -40,7 +45,9 @@ output:
 
 *from the previous code "mpi_integrate_v2.cpp", an additional communicator was created "NEW_COMM" in addition to the existing one "MPI_COMM_WORLD"*
 
+
 output:
+
  For n=100 Trapezoids from a=1 to b=4
  
  The Definite Integral Value is: 73.50044536590576171875

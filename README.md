@@ -5,7 +5,7 @@ the definite integral of a given function func on the interval [a, b]. The funct
 
 ------------------------
 integrate.cpp
-
+-
 * A sequential program integrate.cpp that computes the integration. The program should exit with usage message if the user didn't pass the correct number of parameters.
 
 *stored the argument [argv] values to a,b,n using (atof) function*
@@ -21,7 +21,7 @@ output:
 
 ------------------------
 mpi_integrate_v1.cpp
-
+-
 * an MPI parallel program mpi_integrate_v1.cpp that does the integration by dividing the work a among p processes. For example, if n is 100 and p is 10, then each process computes its local integration on part of the interval using the trapezoid rule. Then have each process sends its local integration value to the master process (process 0) using point-to-point communication. The MPI program accept parameters from the line command similar to the serial version, for example $ mpirun –np 4 ./mpi_integrate 1 3.5 100
 
 *in addition to the code from "integrate.cpp", the T function was added with all MPI functions*
